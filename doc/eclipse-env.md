@@ -1,8 +1,8 @@
 # Configure Spark-ML environment under Eclipse
 
-## Download and install Java Language
+## Download and install Java language
 
-Navigate to http://www.oracle.com/technetwork/java/javase/downloads/index.html and download Oracle JDK 8. Configure
+Navigate to http://www.oracle.com/technetwork/java/javase/downloads/index.html and download Oracle JDK. Configure
 JAVA_HOME and PATH according to the installation.
 
 ## Download and install Scala language
@@ -182,3 +182,6 @@ Navigate to http://scala-ide.org and download the recent version od Scala IDE.
 		</plugins>
 	</build>
 ```
+- Fix Scala versions in pom.xml if a different version of Scala language was installed.
+- Add Spark-ML code to the source folder.
+- Run the project from ScalaIDE as a Scala Application.
